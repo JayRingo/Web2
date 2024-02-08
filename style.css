@@ -1,0 +1,636 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+
+}
+
+.container {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*  ---  Header  ---  */
+
+.burger {
+    display: none;
+}
+
+header {
+
+    background-color: white;
+    margin: 0 auto
+}
+
+.buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-top {
+    display: flex;
+    align-items: center;
+}
+
+.list-top {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    align-self: stretch;
+}
+
+.list-top-content {
+    margin-right: 22px;
+}
+
+.list-top-content>a {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-top: 4px solid transparent;
+}
+
+.list-top-content>a:hover {
+    color: #EF7F04;
+    border-top: 4px solid #EF7F04;
+}
+
+.logo-header {
+    margin: 17px 0;
+}
+
+button {
+    color: white;
+    border: white;
+    background-color: #EF7F04;
+    display: flex;
+    align-items: center;
+    padding: 10px 19px 12px 14px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #3B3A63
+}
+
+.buttons>button {
+    margin-right: 8px;
+    margin-left: 13px;
+}
+
+button>svg {
+    margin-right: 13px;
+}
+
+/* --- Наши Услуги --- */
+
+.our-service-block {
+    padding-top: 68px;
+}
+
+.service_main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service_title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 65px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2F2F51;
+}
+
+h2 span {
+    display: block;
+}
+
+.content {
+    margin-bottom: 10px;
+    width: 542px;
+    padding: 55px 0 33px 53px;
+}
+
+.content p {
+    width: 330px;
+}
+
+.content_title h2 {
+    margin-left: 23px;
+}
+
+.content_title {
+    display: flex;
+}
+
+.installation,
+.glazzing-cottage {
+    margin-right: 10px;
+}
+
+.installation {
+    background-image: url(/images/installation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.glazzing-balcony {
+    background-image: url(/images/glazzing-balcony.jpg);
+    background-repeat: no-repeat;
+    background-size: 770px auto;
+    background-position: -20px -20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.glazzing-cottage {
+    background-image: url(/images/glazzing-cottage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.glazzing-corp {
+    background-image: url(/images/glazing-corp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+/* --- о нас  --- */
+
+.about-us_title {
+    padding-top: 65px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.about-us_nav {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us_nav-list {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.about-us_list-content {
+    margin-right: 70px;
+    list-style: none;
+}
+
+.about-us_list-content>a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 8px 25px 10px 25px;
+}
+
+.about-us_list-content>a:hover {
+    align-items: center;
+    padding: 8px 25px 10px 25px;
+    background-color: #EF7F04;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 0.3px 0 0 currentColor;
+}
+
+.privilege {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 68px 40px 82px 40px;
+}
+
+.cont {
+    display: flex;
+    width: 373px;
+}
+
+.about-us_description {
+    display: flex;
+    border-radius: 3px;
+}
+
+.about-us_img,
+.about-us_text {
+    width: 50%;
+}
+
+.about-us_text {
+    background-color: white;
+    padding-top: 46px;
+    padding-left: 50px;
+    border-radius: 3px;
+}
+
+.about-us_text p {
+    padding-right: 52px;
+    padding-left: 248px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 61px;
+}
+
+.about-us_text img {
+    height: 139px;
+    width: 198px;
+}
+
+.cont-img {
+    margin-right: 23px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.about-us_button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 35px;
+
+}
+
+.about-us_button>button {
+    padding: 19px 39px 19px 40px;
+    font-size: 16px;
+}
+
+.cont:nth-child(1),
+.cont:nth-child(2),
+.cont:nth-child(3) {
+    margin-bottom: 101px;
+}
+
+/* --- Портфолио --- */
+
+.portfolio {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.portfolio_content {
+
+    background-color: white;
+
+}
+
+.portfolio_title {
+
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.portfolio_img {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.portfolio_img_content {
+
+    padding: 0 20px;
+    border-radius: 3px;
+
+}
+
+/* --- Блок с формой --- */
+
+.callback {
+    background-image: url(/images/dudes.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.application-placement {
+    display: flex;
+    padding: 69px 84px 64px 100px;
+}
+
+.intro {
+    max-width: 574px;
+}
+
+.title-text {
+    color: #EF7F04;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 36px;
+    color: white;
+}
+
+
+.intro-text {
+    display: flex;
+}
+
+.intro-sub {
+    width: 176px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 43px;
+}
+
+
+.fill-in {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 321px;
+    align-items: center;
+    padding: 43px 43px 66px 40px;
+    font-size: 12px;
+    margin-left: 62px;
+}
+
+.fill-in>img {
+    position: absolute;
+    left: -6px;
+    bottom: -17px;
+    width: 455px;
+}
+
+.fill-in>input {
+    background-color: #E2E2E2;
+    border-radius: 3px;
+    border: white;
+    margin: 10px;
+    padding: 15px 122px 15px 16px;
+    width: 200px;
+}
+
+.fill-in>button {
+    padding: 19px 39px 19px 40px;
+    margin: 10px;
+}
+
+b {
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #3B3A63;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+/* ---- Вопрос-Ответ ---- */
+
+.faq {
+    margin-bottom: 75px;
+    padding: 50px 100px 50px;
+    background-color: #EF7F1A;
+    border-radius: 7px;
+}
+
+.faq__title {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.faq__list-item {
+    margin-bottom: 14px;
+    background-color: #EEEEF3;
+    border-radius: 3px;
+}
+
+.faq__item-title {
+    position: relative;
+    padding: 30px 80px 30px 20px;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.faq__item-title::-webkit-details-marker {
+    display: none;
+}
+
+.faq__list-item>.faq__item-title::before {
+    content: url('../images/arrow.svg');
+    position: absolute;
+    top: 47;
+    transform: rotate(0deg);
+    right: 30px;
+    height: 17px;
+
+    transition: all .2s;
+}
+
+.faq__list-item>.faq__item-title:hover::before {
+    content: url('../images/arrow_orange.svg');
+}
+
+.faq__list-item>.faq__item-title:hover {
+    color: #EF7F04;
+}
+
+
+.faq__list-item[open]>.faq__item-title:hover {
+    color: #2F2F51;
+    ;
+}
+
+.faq__list-item[open]>.faq__item-title:hover::before {
+    content: url('../images/arrow.svg');
+}
+
+
+.faq__list-item[open]>.faq__item-title::before {
+    transform: rotate(180deg);
+    transition: all .2s;
+}
+
+
+.faq__list-item .faq__item-text {
+    margin: 0;
+    padding-top: 20px;
+    color: #000000;
+    font-weight: 400;
+    display: none;
+}
+
+.faq__list-item[open] .faq__item-text {
+    display: block;
+}
+
+/* ---- footer ---- */
+
+.footer {
+    padding: 55px 0;
+    background-color: #2F2F51;
+    color: #ffffff;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__copy {
+    display: flex;
+}
+
+.footer__copy p {
+    margin: 0;
+    margin-left: 22px;
+    padding: 10px 0;
+}
+
+.footer__user-info {
+    margin: 0;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .burger {
+        display: block;
+        width: 56px;
+        height: 35px;
+        margin-right: 22px;
+    }
+
+    .rectangle {
+        display: block;
+        width: 56px;
+        height: 7px;
+        background-color: #EF7F04;
+        border-radius: 2px;
+        margin-bottom: 7px;
+    }
+
+    .list-top {
+
+        display: none;
+    }
+
+    .nav-top {
+        padding-left: 20px;
+        padding-right: 55px;
+    }
+
+    .fill-in {
+        display: none;
+    }
+
+    .intro {
+        max-width: none;
+        text-align: center;
+        width: 100%
+    }
+
+    h1 {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .intro-text {
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 33px;
+    }
+
+    .our-service-block {
+        flex-direction: column;
+    }
+
+    .service_main {
+        justify-content: center;
+    }
+
+    .content:nth-child(1),
+    .content:nth-child(2),
+    .content:nth-child(3) {
+        margin-bottom: 40px;
+    }
+
+    .portfolio_img_content:nth-child(4) {
+        display: none;
+    }
+
+    .about-us_text p {
+        padding-left: 78px;
+        margin-top: 61px;
+        width: 277px;
+    }
+
+    .about-us_img img {
+        width: 490px;
+        height: 461px
+    }
+
+    .cont:nth-child(1),
+    .cont:nth-child(2),
+    .cont:nth-child(3) {
+
+        margin-bottom: 26px;
+
+    }
+
+    .privilege {
+        justify-content: center;
+    }
+
+    .faq {
+        padding: 40px 15px 40px;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__user-info {
+        margin-left: 0;
+        gap: 5px 30px;
+    }
+
+}
